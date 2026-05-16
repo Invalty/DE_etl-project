@@ -18,13 +18,13 @@
 ### Задача 1.1
 **Разработать ETL-процесс для загрузки «банковских» данных из csv-файлов в соответствующие таблицы СУБД PostgreSQL.**
 
-**Выполнено в:** `dags/etl_load_csv_dag.py` и `sql/create_tables.sql`
+**Выполнено в:** `dags/dag_etl`, `sql/tables dm_ds.sql` и `sql/table_logs.sql`
 
 
 ### Задача 1.2
 **Расчёт витрины оборотов (DM.DM_ACCOUNT_TURNOVER_F) и витрины остатков (DM.DM_ACCOUNT_BALANCE_F).**
 
-**Выполнено в:** `sql/procedures.sql` и `dags/fill_turnover_balance_dag.py`
+**Выполнено в:** `sql/procedures_1.2.sql`
 
 **Созданные процедуры:**
 - `ds.fill_account_turnover_f(i_OnDate DATE)` — расчёт витрины оборотов
@@ -33,7 +33,7 @@
 ### Задача 1.3
 **Расчёт 101 формы за январь 2018 года (DM.DM_F101_ROUND_F).**
 
-**Выполнено в:** `sql/procedures.sql` и `dags/fill_f101_dag.py`
+**Выполнено в:** `sql/procedure_1.3.sql`
 
 **Созданная процедура:**
 - `dm.fill_f101_round_f(i_OnDate DATE)` — отчётная дата = первый день месяца, следующего за отчётным
