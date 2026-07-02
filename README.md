@@ -1,14 +1,5 @@
 # ETL-процесс для банковских данных
 
-
-| Задача | Ссылка на видео |
-|--------|----------------|
-| Задача 1.1 - Загрузка данных из CSV в PostgreSQL | [Ссылка на видео 1.1](https://drive.google.com/file/d/1i4EQ5k2KhZxpnywDPlHqg1_a5AkakrN7/view?usp=sharing) |
-| Задача 1.2 - Расчёт витрин оборотов и остатков | [Ссылка на видео 1.2](https://drive.google.com/file/d/1wdiEUTLXrzEDuBjG-iVk5sR244Jp2mqj/view?usp=sharing) |
-| Задача 1.3 - Расчёт формы 101 | [Ссылка на видео 1.3](https://drive.google.com/file/d/15aJ8RBjW5mCjSy0V1i7qg5JcZFki8DW5/view?usp=sharing) |
-| Задача 1.4 - Экспорт/импорт CSV | [Ссылка на видео 1.4](https://drive.google.com/file/d/1AK30QAmqoTeesUHbH7bV6RQdzDZWoMxO/view?usp=sharing) |
-
-
 ## Задания
 
 ### Задание №1
